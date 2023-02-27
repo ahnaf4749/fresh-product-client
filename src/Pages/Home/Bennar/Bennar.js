@@ -3,7 +3,8 @@ import React from 'react';
 const Bennar = () => {
     return (
         <div>
-            <p>Bennar hello bennar</p>
+            <img src='https://i.ibb.co/Tr6Msb2/farmtotable-blog-header.jpg' alt=''></img>
+
         </div>
     );
 };
