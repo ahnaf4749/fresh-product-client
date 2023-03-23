@@ -36,8 +36,54 @@ const MainHeader = () => {
                                     <span >(10 items)</span>
                                 </a>
                             </li>
-                            <li><a>Fresh Fruits</a></li>
-                            <li><a>Fresh Tomatoes</a></li>
+                            <li>
+                                <a className="justify-between">
+                                    Vegetables
+                                    <span >(10 items)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a className="justify-between">
+                                    Vegetables
+                                    <span >(10 items)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a className="justify-between">
+                                    Vegetables
+                                    <span >(10 items)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a className="justify-between">
+                                    Vegetables
+                                    <span >(10 items)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a className="justify-between">
+                                    Vegetables
+                                    <span >(10 items)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a className="justify-between">
+                                    Vegetables
+                                    <span >(10 items)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a className="justify-between">
+                                    Vegetables
+                                    <span >(10 items)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a className="justify-between">
+                                    Vegetables
+                                    <span >(10 items)</span>
+                                </a>
+                            </li>
                         </ul>
                     </li>
                 </ul>

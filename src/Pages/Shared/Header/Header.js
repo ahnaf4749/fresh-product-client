@@ -12,7 +12,7 @@ const Header = () => {
     return (
         <div>
             <header aria-label="Page Header">
-                <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+                <div class="mx-auto max-w-screen-xl  px-4 py-8 sm:px-6 lg:px-8">
                     <div class="flex items-center justify-between gap-4">
                         <p>fresher Products</p>
                         <div class="flex items-center gap-4">

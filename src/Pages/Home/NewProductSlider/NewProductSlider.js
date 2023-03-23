@@ -43,6 +43,15 @@ export default function NewProductSlider() {
         prevArrow: <SamplePrevArrow />,
         responsive: [
             {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 3,
@@ -52,7 +61,7 @@ export default function NewProductSlider() {
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 900,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
@@ -110,7 +119,7 @@ export default function NewProductSlider() {
 
 
     return (
-        <div className="sumu">
+        <div className="caurosle relative">
             <Slider {...settings}>
                 {
                     newProduct.map(product =>
@@ -142,7 +151,9 @@ export default function NewProductSlider() {
                     )
                 }
             </Slider>
-
+            <div className="">
+                <img className="w-72 hidden lg:block mr-96" src="https://i.ibb.co/vPsk2mm/RIGHT-SIDE-1.jpg" alt="" />
+            </div>
         </div>
     );
 }

@@ -1,0 +1,23 @@
+.bennar {
+    background-image: url("https://i.ibb.co/ZmfHWWr/jedecfjgc.png");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .bennar {
+        background-size: cover;
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .bennar {
+        background-size: cover;
+        height: 600px;
+    }
+}
